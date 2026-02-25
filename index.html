@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'zbekcha Klaviaturada Yozish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O'zbekcha Klaviatura Treningi</h1>
+        
+        <div class="stats">
+            <div class="stat-box">WPM: <span id="wpm">0</span></div>
+            <div class="stat-box">Aniqlik: <span id="accuracy">100</span>%</div>
+        </div>
+
+        <div class="text-display" id="text-display"></div>
+
+        <!-- Подсказка теперь говорит нажать пробел -->
+        <textarea id="text-input" placeholder="So'zni yozing va bo'sh joy tugmasini bosing..." autofocus></textarea>
+        
+        <button id="restart-btn">Qaytadan boshlash (Restart)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
